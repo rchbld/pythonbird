@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "pythonbird"
+version = "0.1.0"
+description = "A Python library to interact with local Mozilla Thunderbird profiles and mail client data on Linux."
+authors = ["dh650 <martirosjan.acmc@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com"
+keywords = ["thunderbird", "email", "mbox", "sqlite", "linux"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Email",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.pytest_cache
+  | \.venv
+  | build
+  | dist
+)/
+'''
+

@@ -1,0 +1,17 @@
+# Python directories
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
