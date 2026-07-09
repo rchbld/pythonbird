@@ -10,6 +10,10 @@ A lightweight, zero-dependency Python library for interacting with local Mozilla
 - **Address Book Access:** Fetches contacts directly from native SQLite databases (abook.sqlite).
 - **Natively Controlled:** Launches native Thunderbird compose windows pre-filled with custom text or attachments via CLI.
 
+## Documentation
+
+For a comprehensive breakdown of every class, method, argument, and advanced error handling practice, please refer to the full [Developer Guide and API Reference](GUIDE.md).
+
 ## Installation
 
 This library requires Python 3.8+ and is built specifically for Linux environments.
@@ -91,5 +95,4 @@ When Thunderbird is active, it locks database and mail storage files to prevent 
 
 ## License
 
-This project is licensed under the MIT License.
-
+This project is licensed under the [MIT License](LICENSE).
