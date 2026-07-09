@@ -1,4 +1,4 @@
-# pythunderbird
+# pythonbird
 
 A lightweight, zero-dependency Python library for interacting with local Mozilla Thunderbird profiles, mailboxes, and configurations on Linux.
 
@@ -17,21 +17,21 @@ This library requires Python 3.8+ and is built specifically for Linux environmen
 ### Using Poetry (Recommended)
 
 ```bash
-poetry add pythunderbird
+poetry add pythonbird
 ```
 
 ### Using pip
 
 ```bash
-pip install pythunderbird
+pip install pythonbird
 ```
 
 ## Quick Start
 
-Here is how you can use pythunderbird in your project:
+Here is how you can use pythonbird in your project:
 
 ```python
-from pythunderbird import ThunderbirdLinux, ThunderbirdMail, ThunderbirdContacts
+from pythonbird import ThunderbirdLinux, ThunderbirdMail, ThunderbirdContacts
 
 # 1. Initialize and connect to the active profile
 tb = ThunderbirdLinux()
@@ -73,8 +73,8 @@ poetry run pytest
 ## Project Architecture
 
 ```text
-pythunderbird/
-├── pythunderbird/
+pythonbird/
+├── pythonbird/
 │   ├── __init__.py      # Clean top-level package imports
 │   ├── core.py          # Profile auto-detection, preference extraction & CLI control
 │   ├── mail.py          # Reads local storage folders (Mbox structure)
@@ -87,7 +87,7 @@ pythunderbird/
 
 ## Safety and Concurrency
 
-When Thunderbird is active, it locks database and mail storage files to prevent edits. To protect your files, pythunderbird performs read-only interactions and applies standard file locking mechanisms (mailbox.mbox().lock()) during file execution. This ensures zero risk of database or mail folder corruption.
+When Thunderbird is active, it locks database and mail storage files to prevent edits. To protect your files, pythonbird performs read-only interactions and applies standard file locking mechanisms (mailbox.mbox().lock()) during file execution. This ensures zero risk of database or mail folder corruption.
 
 ## License
 
