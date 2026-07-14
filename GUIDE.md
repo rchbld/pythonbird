@@ -1,6 +1,6 @@
 # Pythonbird Developer Guide and API Reference
 
-This guide describes the public classes, methods, return values, and error-handling behavior available in `pythonbird` version **0.2.0**.
+This guide describes the public classes, methods, return values, and error-handling behavior available in `pythonbird` version **0.2.2**.
 
 ## Table of Contents
 

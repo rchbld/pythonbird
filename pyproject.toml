@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pythonbird"
-version = "0.2.0"
+version = "0.2.2"
 description = "A Python library to interact with local Mozilla Thunderbird profiles and mail client data on Linux."
 authors = ["rchbld <diamondhead650@gmail.com>"]
 readme = "README.md"

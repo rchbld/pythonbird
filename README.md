@@ -55,7 +55,7 @@ pip install pythonbird
 
 ## Quick Start
 
-The recommended API in version 0.2.0 uses one high-level object:
+The recommended API in version 0.2.2 uses one high-level object:
 
 ```python
 from pythonbird import Thunderbird
@@ -350,7 +350,7 @@ Applications should still keep backups of important Thunderbird profiles. No lib
 
 ## Version
 
-Current version: **0.2.0**
+Current version: **0.2.2**
 
 ## License
 
